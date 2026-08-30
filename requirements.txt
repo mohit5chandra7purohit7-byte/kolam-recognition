@@ -1,1 +1,8 @@
-# Add project dependencies here
+opencv-python==4.10.0.84
+scikit-image==0.24.0
+networkx==3.3
+numpy==1.26.4
+shapely==2.0.5
+torch==2.4.0
+svgwrite==1.4.3
+streamlit==1.37.1
