@@ -61,6 +61,6 @@ Here is how our Kolam recognition system flows from start to finish:
 
 | Team Pair | Pipeline Phase | Folders They Own | What They Actually Do |
 |-----------|----------------|------------------|-----------------------|
-| **You (Mohit P.) & Priya** | Upload & Extraction | `data/` and `src/preprocessing/` | You will put raw images into `data/raw/`. Inside `src/preprocessing/`, you will write OpenCV scripts to extract the dots and strokes from those images. |
-| **Avani & Bhaskar** | Conversion (Dots to Graphs) | `src/graph_analysis/` | They will write scripts to take your extracted coordinates and use NetworkX to find the symmetry rules. |
+| **You (Mohit P.) & Bhaskar** | Upload & Extraction | `data/` and `src/preprocessing/` | You will put raw images into `data/raw/`. Inside `src/preprocessing/`, you will write OpenCV scripts to extract the dots and strokes from those images. |
+| **Avani & Priya** | Conversion (Dots to Graphs) | `src/graph_analysis/` | They will write scripts to take your extracted coordinates and use NetworkX to find the symmetry rules. |
 | **Riya & Mohit J. (Lead)** | Generation & Display | `src/generation/` and `app/` | Riya writes the SVG drawing code inside `src/generation/`. Mohit J. builds the Streamlit website inside the `app/` folder to display the final result. |
